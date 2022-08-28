@@ -1,8 +1,10 @@
 package by.naumenka.task1;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
+@Profile("task1")
 public class CommandLineRunner implements org.springframework.boot.CommandLineRunner {
 
     @Override

@@ -1,14 +1,14 @@
-package by.naumenka.task1;
+package by.naumenka.task3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Profile;
 
-@Profile("task1")
+@Profile("task3")
 @SpringBootApplication
-public class Application {
+public class SpringSecurityApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(SpringSecurityApplication.class, args);
     }
 }
